@@ -5,5 +5,5 @@
     <artifactId>JavaTest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>02-java-comments-identifiers-basicDataTypes</artifactId>
+  <artifactId>03-java-operator</artifactId>
 </project>

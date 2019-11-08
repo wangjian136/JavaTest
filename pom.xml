@@ -7,5 +7,6 @@
   <modules>
   	<module>01-java-helloworld</module>
   	<module>02-java-comments-identifiers-basicDataTypes</module>
+  	<module>03-java-operator</module>
   </modules>
 </project>
