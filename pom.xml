@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>01-java-helloworld</module>
+  	<module>02-java-comments-identifiers-basicDatatTpes</module>
   </modules>
 </project>

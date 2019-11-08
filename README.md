@@ -1,2 +1,2 @@
 # JavaTest
-Test Java for Git
+Java Learning
