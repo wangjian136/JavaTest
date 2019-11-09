@@ -12,5 +12,6 @@
 		<module>03-java-operator</module>
 		<module>04-java-control-statement</module>
 		<module>05-java-method-overload-recursive</module>
+		<module>06-java-class-object</module>
 	</modules>
 </project>
