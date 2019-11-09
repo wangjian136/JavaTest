@@ -1,6 +1,7 @@
 package cn.edu.ccut.test;
 
 import cn.edu.ccut.bo.Person;
+import cn.edu.ccut.util.PersonUtil;
 
 /**
  * GenerationObject
@@ -17,6 +18,8 @@ public class GenerationObject {
 		//Parametric construction method
 		Person person2 = new Person("1", "张三", 23, "男", "上海市嘉定区");
 		System.out.println(person2);
+		//PersonUtil
+		System.out.println(PersonUtil.getPerson());
 	}
 
 }

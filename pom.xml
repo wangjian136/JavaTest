@@ -13,5 +13,6 @@
 		<module>04-java-control-statement</module>
 		<module>05-java-method-overload-recursive</module>
 		<module>06-java-class-object</module>
+		<module>07-java-class-extends</module>
 	</modules>
 </project>
