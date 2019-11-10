@@ -17,5 +17,6 @@
 		<module>08-java-array</module>
 		<module>09-java-abstract-interface-inner</module>
 		<module>10-java-string</module>
+		<module>11-java-packaging-class</module>
 	</modules>
 </project>
