@@ -18,5 +18,6 @@
 		<module>09-java-abstract-interface-inner</module>
 		<module>10-java-string</module>
 		<module>11-java-packaging-class</module>
+		<module>12-java-date-calendar-dateformat</module>
 	</modules>
 </project>
