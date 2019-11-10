@@ -18,9 +18,16 @@ public class Car extends Tool {
 		System.out.println("hello car");
 	}
 	
+	public void play() {
+		System.out.println("play play");
+	}
+	
 	public static void main(String[] args) {
 		Tool tool = new Car();
 		tool.sayHello();
+		
+		Car car = (Car)tool;
+		car.play();
 	}
 
 }

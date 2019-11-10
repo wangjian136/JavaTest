@@ -14,5 +14,7 @@
 		<module>05-java-method-overload-recursive</module>
 		<module>06-java-class-object</module>
 		<module>07-java-class-extends</module>
+		<module>08-java-array</module>
+		<module>09-java-abstract-interface-inner</module>
 	</modules>
 </project>
