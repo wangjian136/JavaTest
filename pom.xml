@@ -16,5 +16,6 @@
 		<module>07-java-class-extends</module>
 		<module>08-java-array</module>
 		<module>09-java-abstract-interface-inner</module>
+		<module>10-java-string</module>
 	</modules>
 </project>
