@@ -19,5 +19,6 @@
 		<module>10-java-string</module>
 		<module>11-java-packaging-class</module>
 		<module>12-java-date-calendar-dateformat</module>
+		<module>13-java-exception</module>
 	</modules>
 </project>
