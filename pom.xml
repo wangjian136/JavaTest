@@ -20,5 +20,6 @@
 		<module>11-java-packaging-class</module>
 		<module>12-java-date-calendar-dateformat</module>
 		<module>13-java-exception</module>
+		<module>14-java-collection</module>
 	</modules>
 </project>
