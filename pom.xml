@@ -21,5 +21,6 @@
 		<module>12-java-date-calendar-dateformat</module>
 		<module>13-java-exception</module>
 		<module>14-java-collection</module>
+		<module>15-java-io</module>
 	</modules>
 </project>
