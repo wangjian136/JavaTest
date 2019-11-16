@@ -5,5 +5,5 @@
     <artifactId>JavaTest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>10-java-string</artifactId>
+  <artifactId>10-java-string-math</artifactId>
 </project>
