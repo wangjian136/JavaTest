@@ -46,6 +46,7 @@ public class MapTest {
 		for (String value : hashMap.values()) {
 			System.out.println("value="+value);
 		}
+		
 		Map<String, Object> map1 = new HashMap<String, Object>();
 		Map<String, Object> map2 = new TreeMap<String, Object>();
 		Map<String, Object> map3 = new Hashtable<String, Object>();

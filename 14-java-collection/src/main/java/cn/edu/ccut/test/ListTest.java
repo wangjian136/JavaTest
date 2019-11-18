@@ -2,6 +2,7 @@ package cn.edu.ccut.test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -58,6 +59,12 @@ public class ListTest {
 		arrayList.clear();
 		arrayList.addAll(newList);
 		System.out.println(arrayList);
+		
+		Iterator<String> iterator = arrayList.iterator();
+		while (iterator.hasNext()) {
+			String str = iterator.next();
+			System.out.println(str);
+		}
 	}
 
 }

@@ -2,6 +2,7 @@ package cn.edu.ccut.test;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -38,6 +39,11 @@ public class SetList {
 		hashSet.clear();
 		hashSet.addAll(newSet);
 		System.out.println(hashSet);
+		Iterator<String> iterator = hashSet.iterator();
+		while (iterator.hasNext()) {
+			String string = iterator.next();
+			System.out.println(string);
+		}
 	}
 
 }
