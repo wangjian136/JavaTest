@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.ListIterator;
 import java.util.Vector;
 
 
@@ -56,6 +57,7 @@ public class ListTest {
 		List<String> v = new Vector<String>();
 		List<String> newList = new LinkedList<String>();
 		newList.add("china");
+		newList.add("china1");
 		arrayList.clear();
 		arrayList.addAll(newList);
 		System.out.println(arrayList);
@@ -65,6 +67,11 @@ public class ListTest {
 			String str = iterator.next();
 			System.out.println(str);
 		}
+		ListIterator<String> listIterator = arrayList.listIterator(arrayList.size());
+		while(listIterator.hasPrevious()) {
+			System.out.println(listIterator.previous());
+		}
+		
 	}
 
 }
