@@ -11,6 +11,7 @@ public abstract class AbstractClass {
 	public void say() {
 		System.out.println("hello");
 	}
+	
 }
 
 class ImplClass extends AbstractClass{
@@ -18,5 +19,13 @@ class ImplClass extends AbstractClass{
 	@Override
 	public void play() {
 		System.out.println("play");
+	}
+	
+	
+}
+//抽象类中可以没有抽象方法
+abstract class Test01{
+	private static void say() {
+		System.out.println("hello");
 	}
 }
