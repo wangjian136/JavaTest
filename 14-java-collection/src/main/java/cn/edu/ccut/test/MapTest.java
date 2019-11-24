@@ -48,6 +48,7 @@ public class MapTest {
 		}
 		
 		Map<String, Object> map1 = new HashMap<String, Object>();
+		map1.put(null, null);
 		Map<String, Object> map2 = new TreeMap<String, Object>();
 		Map<String, Object> map3 = new Hashtable<String, Object>();
 	}
