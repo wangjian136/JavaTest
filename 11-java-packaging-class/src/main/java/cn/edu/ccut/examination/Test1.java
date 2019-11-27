@@ -1,6 +1,6 @@
 package cn.edu.ccut.examination;
 
-public class Test {
+public class Test1 {
 
 	public static void main(String[] args) {
 		Integer a = new Integer(5);

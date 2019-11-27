@@ -1,25 +1,23 @@
 package cn.edu.ccut.examination;
-/**
- * test exception finally return
- * @author jwang
- *
- */
-public class Test {
 
+public class Test {
 	public static void main(String[] args) {
-		System.out.println(testReturn());
+		System.out.println(test());
+
 	}
-	
-	public static String testReturn() {
+
+	private static int test() {
+		int temp = 1;
 		try {
-			String a = "hello";
-			int b = 1 / 0;
-			return a;
-		}catch (Exception e) {
-			return "exception";
-		}finally {
-			System.out.println("finally");
+			System.out.println(temp);//1
+			int a = 1/0;
+			return ++temp;
+		} catch (Exception e) {
+			System.out.println(temp);
+			return ++temp;
+		} finally {
+			++temp;
+			System.out.println(temp);
 		}
 	}
-
 }
