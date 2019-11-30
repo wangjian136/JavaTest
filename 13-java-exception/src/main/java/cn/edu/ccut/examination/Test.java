@@ -2,22 +2,14 @@ package cn.edu.ccut.examination;
 
 public class Test {
 	public static void main(String[] args) {
-		System.out.println(test());
-
+		System.out.println("return value of getValue(): " + getValue());
 	}
 
-	private static int test() {
-		int temp = 1;
+	public static int getValue() {
 		try {
-			System.out.println(temp);//1
-			int a = 1/0;
-			return ++temp;
-		} catch (Exception e) {
-			System.out.println(temp);
-			return ++temp;
+			return 0;
 		} finally {
-			++temp;
-			System.out.println(temp);
+			return 1;
 		}
 	}
 }
