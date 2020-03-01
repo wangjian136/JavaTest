@@ -21,6 +21,10 @@ public class RelationalOperator {
 		System.out.println("result = "+result);//true
 		result = 1 >= 0;//大于等于
 		System.out.println("result = "+result);//true
+		
+		System.out.println(4*(1+1));//括号运算符
+		System.out.println(new int [] {1,2});//方括号运算符表示声明数组，后面会说到
+		
 	}
 
 }

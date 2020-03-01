@@ -15,10 +15,12 @@ public class LogicalOperator {
 		System.out.println("result = "+(1==3 || 1==2));//false
 		System.out.println("result = "+(1==1 || 1==2));//true
 		System.out.println("result = "+!(1==1));//false
+		//----
 		System.out.println("result = "+(1==1 & 1==2));//false
 		System.out.println("result = "+(1==1 & 1==1));//true
 		System.out.println("result = "+(1==3 | 1==2));//false
 		System.out.println("result = "+(1==1 | 1==2));//true
+		System.out.println("result = "+(1==1 ^ 1==2));//true,²»Í¬Îªtrue
 	}
 
 }
