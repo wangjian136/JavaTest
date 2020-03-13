@@ -3,7 +3,7 @@ package cn.edu.ccut.examination;
 public class StatementBlock {
 
 	public static void main(String[] args) {
-		Tool tool1 = new Tool();
+		//Tool tool1 = new Tool();
 		//1¡¢Static Statement Block
 		//1¡¢Statement Block
 		//1¡¢Constructor Method

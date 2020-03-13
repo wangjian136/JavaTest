@@ -5,6 +5,12 @@ package cn.edu.ccut.test;
  *
  */
 public abstract class AbstractClass {
+	
+	int a;
+	
+	public AbstractClass() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public abstract void play();
 	

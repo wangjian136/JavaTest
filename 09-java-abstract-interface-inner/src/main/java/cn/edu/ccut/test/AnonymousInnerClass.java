@@ -11,7 +11,7 @@ public class AnonymousInnerClass {
 		innerClass.test(new E() {
 			@Override
 			public String show() {
-				return "hello world";
+				return "匿名内部类";
 			}
 		});
 	}

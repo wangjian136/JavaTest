@@ -12,5 +12,6 @@ public class Snippet {
 		System.out.print(o1);
 		System.out.print(" ");
 		System.out.print(o2);
+		System.out.print(" ");
 	}
 }

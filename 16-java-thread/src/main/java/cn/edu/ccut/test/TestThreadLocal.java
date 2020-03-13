@@ -7,11 +7,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.FutureTask;
 
 public class TestThreadLocal {
 	
@@ -32,26 +30,32 @@ public class TestThreadLocal {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		ExecutorService service = Executors.newFixedThreadPool(10);
-		Callable<Date> callable = new Callable<Date>() {
-			@Override
-			public Date call() throws Exception {
-				return sdf.parse("2019-01-01");
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			
+			Callable<Date> callable = new Callable<Date>() {
+				@Override
+				public Date call() throws Exception {
+					return sdf.parse("2019-01-01");
+					//return TestThreadLocal.convert("2019-01-01");
+				}
+			};
+			
+			List<Future<Date>> result = new ArrayList<Future<Date>>();
+			
+			for (int i = 0; i < 10; i++) {
+				result.add(service.submit(callable));
 			}
-		};
-		
-		List<Future<Date>> result = new ArrayList<Future<Date>>();
-		
-		for (int i = 0; i < 10; i++) {
-			result.add(service.submit(callable));
+			
+			for (Future<Date> future : result) {
+				System.out.println(future.get());
+			}
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			service.shutdown();
 		}
-		
-		for (Future<Date> future : result) {
-			System.out.println(future.get());
-		}
-		
-		service.shutdown();
 	}
 
 }

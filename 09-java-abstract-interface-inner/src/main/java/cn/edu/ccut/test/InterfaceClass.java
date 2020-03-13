@@ -5,7 +5,8 @@ package cn.edu.ccut.test;
  *
  */
 public interface InterfaceClass {
-
+	//接口中字段的修饰符：public static final（默认不写）
+	//接口中方法的修饰符：public abstract（默认不写）
 	public void say();
 	
 }
@@ -34,3 +35,5 @@ class ImplClass2 implements InterfaceClass, InterfaceClass2{
 	}
 	
 }
+
+abstract class S{}
